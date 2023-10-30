@@ -11,7 +11,8 @@ export default {
       },
       colors: {
         'custom-purple': '#8921AE',
-        'bglight' : '#FBFAFC'
+        'bglight' : '#FBFAFC',
+        'lightwhite' : '#F5F0F7'
       },
     },
   },
