@@ -23,7 +23,7 @@ function TransactionCard({credit, time, amount}) {
       
      
     </div>
-    <div>
+    <div className="p-4 mx-2">
       #{amount}
     </div>
   </div>
