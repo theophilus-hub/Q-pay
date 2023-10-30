@@ -17,13 +17,13 @@ function BalanceCard() {
   <div className="flex gap-4">
     
     
-    <Link to='/login'>
+    <Link to=''>
     <button className="flex items-center justify-center w-28 h-10 bg-white text-custom-purple font-semibold text-base rounded-md border border-custom-purple">
      <img src={plus} className="p-2"/>
       Deposit
     </button>
     </Link>
-    <Link to='/login'>
+    <Link to=''>
     <button className="flex items-center justify-center w-28 h-10 bg-white text-custom-purple font-semibold text-base rounded-md border border-custom-purple">
     <img src={minus} className="p-1"/>
       Withdraw
@@ -36,8 +36,10 @@ function BalanceCard() {
     </div>
 
     <div className='bg-bglight whitespace-nowrap'>
-         <div className='mx-auto flex max-w-md items-center justify-between p-4 m-4 mb-0'>
-        <img src={p2p} className="w-100%" />
+         <div className='mx-auto flex max-w-md items-center justify-between p-4 m-4'>
+          <Link to='/p2p'>
+          <img src={p2p} className="w-100%" />
+          </Link> 
         </div>
     </div>
     </>

@@ -6,7 +6,7 @@ function TransactionCard({credit, time, amount}) {
   return (
     <>
    <div className='bglight'>
-  <div className='mx-auto flex max-w-md items-center justify-between p-4 m-4 bg-white '>
+  <div className='mx-auto flex max-w-md items-center justify-between p-4 px-4 m-4 bg-white '>
     <div className='flex max-w-min items-center justify-between  '>
       
       <div className="w-10 h-10">
