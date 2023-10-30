@@ -1,9 +1,15 @@
+import { useState } from "react"
 import { Link } from "react-router-dom"
 import plus from "../assets/Frame 15.svg"
 import minus from "../assets/Frame 16.svg"
 import p2p from "../assets/Frame 9.png"
 
+
 function BalanceCard() {
+  const [activeCard, setActiveCard] = useState(1);
+
+  
+
   return (
     <>
     <div className='bg-bglight whitespace-nowrap'>

@@ -1,0 +1,44 @@
+/* Slider Container */
+.slider-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Slider */
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  /* Active State for Card 1 */
+  .active1 {
+    transform: translateX(0%);
+  }
+  
+  /* Active State for Card 2 */
+  .active2 {
+    transform: translateX(-100%);
+  }
+  
+  /* Cards */
+  .card {
+    flex: 0 0 100%;
+    min-width: 100%;
+  }
+  
+  /* Card 1 specific styles */
+  .card1 {
+    background-color: #ffcccc; /* Example background color */
+  }
+  
+  /* Card 2 specific styles */
+  .card2 {
+    background-color: #ccccff; /* Example background color */
+  }
+  
+  /* Controls (Buttons) */
+  .controls {
+    margin-top: 10px;
+  }
+  
